@@ -193,28 +193,28 @@ console.log(nineOverThree);
 console.log(twoHundredTimesThree);
 
 
-if (!Object.is || true) {
-	Object.is = function ObjectIs(x,y) { 
-        if(x===0 && y===0){
-            if((1/x)===-Infinity && (1/y)===Infinity || (1/y)===-Infinity && (1/x)===Infinity  ){
-                return false;
-            }
-          else{
-                return true;
-            }
-        }
-        else if(Number.isNaN(x)=== true && Number.isNaN(y)===true){
-            return true;
-        }
-        else if(x!==y){
-            return false;
-        }
-        else{
-            return true;
-        }
-     }
+// if (!Object.is || true) {
+// 	Object.is = function ObjectIs(x,y) { 
+//         if(x===0 && y===0){
+//             if((1/x)===-Infinity && (1/y)===Infinity || (1/y)===-Infinity && (1/x)===Infinity  ){
+//                 return false;
+//             }
+//           else{
+//                 return true;
+//             }
+//         }
+//         else if(Number.isNaN(x)=== true && Number.isNaN(y)===true){
+//             return true;
+//         }
+//         else if(x!==y){
+//             return false;
+//         }
+//         else{
+//             return true;
+//         }
+//      }
 	
-}
+// }
 
 // console.log(Object.is(42, 42));
 // console.log(Object.is('foo', 'foo'));
